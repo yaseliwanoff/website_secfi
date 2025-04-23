@@ -1,0 +1,36 @@
+/* Базовые подключения */
+@import url("./layout.css");
+@import url("./reset.css");
+@import url("./typography.css");
+
+/* Подключение стилей компонентов */
+@import url("./components/header.css");
+@import url("./components/hero.css");
+
+:root {
+    /* Цветовые переменные */
+    --text-color-black: #000000;
+    --text-color-dark: #292A2D;
+    --text-color-green: #004250;
+    --text-color-gray: #73726C;
+    --text-color-white: #FFFFFF;
+
+    /* Переменные размеров */
+    --background-color-white: #FFFFFF;
+    --background-color-light-gray: #73726C;
+    --background-color-dark-gray: #313236;
+    --background-yellow: #FBFBF6;
+    --background-green: #004250;
+    --background-dark: #292A2D;
+
+    /* Типографика */
+
+
+    /* Переменные для адаптивности */
+
+
+    /* Переменные для эффектов и состояний */
+
+
+    /* Переменные размера блоков */
+}
