@@ -1,0 +1,13 @@
+@import url("typography.css");
+.container {
+    max-width: 1035px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+*,
+*:after,
+*:before {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+}
