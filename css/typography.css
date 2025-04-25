@@ -1,7 +1,7 @@
 @font-face {
     font-family: "Roboto";
     src: url("../assets/fonts/Roboto/ttf/Roboto_Condensed-Regular.ttf") format("truetype"),
-    url("../assets/fonts/Roboto/woff/Roboto_Condensed-Regular.woff") format("woff")
+    url("../assets/fonts/Roboto/woff/Roboto_Condensed-Regular.woff") format("woff"),
     url("../assets/fonts/Roboto/woff2/Roboto_Condensed-Regular.woff2") format("woff2");
     font-style: normal;
     font-weight: 400;
