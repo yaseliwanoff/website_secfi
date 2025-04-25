@@ -1,5 +1,6 @@
 header {
     padding-top: 36px;
+    padding-bottom: 43px;
 }
 
 .header__wrapper {
@@ -39,7 +40,7 @@ header {
     align-items: center;
 }
 
-.header__buttons-login, .header__buttons-start, .header__buttons-search {
+.btn {
     padding: 14px 26px;
     border-radius: 999px;
     border: none;
