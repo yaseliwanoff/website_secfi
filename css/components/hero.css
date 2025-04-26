@@ -1,23 +1,24 @@
 .hero_wrapper-left .title {
-    font-size: 42px;
-    width: 300px;
+    font-size: var(--text-size-large);
+    width: 340px;
     line-height: 35px;
     margin-bottom: 33px;
 }
 
 .hero_wrapper-left .title span {
-    font-size: 33px;
+    font-size: var(--text-size-medium);
 }
 
 .hero_wrapper-left .description {
     margin-bottom: 21px;
     width: 333px;
+    line-height: 20px;
 }
 
 .btn-start {
     background-color: var(--background-color-dark-gray);
     color: var(--text-color-white);
-    transition: var(--transition-medium);
+    transition: var(--transition-fast);
 }
 
 .btn-start:hover {
@@ -45,19 +46,20 @@
     top: 70px;
     left: -80px;
     width: 180px;
-    height: 180px;
-    background-color: #FBFBF8;
-    border-radius: 15px;
-    border: 1px solid #E6E6E6;
+    height: 200px;
+    background-color: #fbfbf8;
+    border-radius: var(--text-description);
+    border: 1px solid #e6e6e6;
 }
 
 .block__details-line {
     height: 1px;
     width: 100%;
-    background-color: #E6E6E6;
+    background-color: #e6e6e6;
 }
 
-.block__details-header, .block__details-content {
+.block__details-header,
+.block__details-content {
     padding: 10px;
 }
 
@@ -112,6 +114,7 @@
 .line {
     width: 100%;
     height: 1px;
+    margin-bottom: 38px;
     background-color: rgba(0, 0, 0, 0.15);
     margin-top: -5px;
 }

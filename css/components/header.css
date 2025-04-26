@@ -27,7 +27,7 @@ header {
     padding: 15px;
     text-decoration: none;
     color: var(--text-color-dark);
-    transition: var(--transition-medium);
+    transition: var(--transition-fast);
 }
 
 .header__nav-link:hover {
@@ -47,7 +47,7 @@ header {
     background-color: inherit;
     cursor: pointer;
     font-size: var(--text-button);
-    transition: var(--transition-medium);
+    transition: var(--transition-fast);
 }
 
 .header__buttons-login:hover,

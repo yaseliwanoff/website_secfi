@@ -1,0 +1,36 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.startup-description {
+    margin-bottom: 65px;
+}
+
+.startup-text {
+    font-size: var(--text-size-low);
+    letter-spacing: 1px;
+    margin-bottom: 21px;
+}
+
+.startup-description p {
+    font-size: var(--text-description);
+    line-height: 22px;
+    width: 506px;
+    text-align: center;
+}
+
+.description .text {
+    margin-bottom: 40px;
+    display: flex;
+    float: left;
+    font-size: 10px;
+    opacity: 60%;
+    width: 140px;
+}
+
+.startup {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
