@@ -1,0 +1,99 @@
+.options {
+    margin-top: 66px;
+}
+
+.options h2 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 34px;
+    font-size: 19px;
+    letter-spacing: 1px;
+}
+
+.collect-text {
+    padding: 25px;
+    color: var(--text-color-white);
+    font-size: 20px;
+    line-height: 27px;
+    letter-spacing: 1px;
+}
+
+.options__wrapper {
+    display: flex;
+    gap: 25px;
+}
+
+.image__company {
+    background-image: url("../../assets/images/png/man1.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+}
+
+.company {
+    background-color: #879EAD;
+}
+
+.collect {
+    border-radius: 4px;
+    width: 248px;
+    height: 364px;
+    transition: var(--transition-medium);
+}
+
+.collect.company1:hover {
+    box-shadow: 2px 26px 64px -16px rgba(135,158,173,0.75);
+    -webkit-box-shadow: 2px 26px 64px -16px rgba(135,158,173,0.75);
+    -moz-box-shadow: 2px 26px 64px -16px rgba(135,158,173,0.75);
+}
+
+.image__wealth {
+    background-image: url("../../assets/images/png/man2.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+}
+
+.wealth {
+    background-color: #1A5866;
+}
+
+.collect.wealth1:hover {
+    box-shadow: 2px 26px 64px -16px rgba(26,88,102,0.75);
+    -webkit-box-shadow: 2px 26px 64px -16px rgba(26,88,102,0.75);
+    -moz-box-shadow: 2px 26px 64px -16px rgba(26,88,102,0.75);
+}
+
+.image__stock {
+    background-image: url("../../assets/images/png/women3.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+}
+
+.stock {
+    background-color: #776C62;
+}
+
+.collect.stock1:hover {
+    box-shadow: 2px 26px 64px -16px rgba(119,108,98,0.75);
+    -webkit-box-shadow: 2px 26px 64px -16px rgba(119,108,98,0.75);
+    -moz-box-shadow: 2px 26px 64px -16px rgba(119,108,98,0.75);
+}
+
+.image__job {
+    background-image: url("../../assets/images/png/women4.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+}
+
+.job {
+    background-color: #99958E;
+}
+
+.collect.job1:hover {
+    box-shadow: 2px 26px 64px -16px rgba(153,149,142,0.75);
+    -webkit-box-shadow: 2px 26px 64px -16px rgba(153,149,142,0.75);
+    -moz-box-shadow: 2px 26px 64px -16px rgba(153,149,142,0.75);
+}

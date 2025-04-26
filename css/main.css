@@ -13,6 +13,8 @@
 @import url("./components/secfi.css");
 @import url("./components/balance.css");
 @import url("./components/clients.css");
+@import url("./components/options.css");
+@import url("./components/footer.css");
 
 :root {
     /* Цветовые переменные */
