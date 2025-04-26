@@ -7,6 +7,12 @@
 @import url("./components/header.css");
 @import url("./components/hero.css");
 @import url("./components/description.css");
+@import url("./components/work.css");
+@import url("./components/cash.css");
+@import url("./components/grow.css");
+@import url("./components/secfi.css");
+@import url("./components/balance.css");
+@import url("./components/clients.css");
 
 :root {
     /* Цветовые переменные */

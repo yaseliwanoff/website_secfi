@@ -1,0 +1,32 @@
+.cash__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cash__text-title {
+    font-size: 12px;
+    opacity: 50%;
+    text-transform: uppercase;
+}
+
+.cash__text-description {
+    margin-top: 10px;
+    margin-bottom: 26px;
+}
+
+.cash__text-description h3 {
+    font-size: 23px;
+    letter-spacing: 1px;
+    line-height: 28px;
+    width: 361px;
+}
+
+.cash__text-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.cash__wrapper-left {
+    padding-top: 133px;
+}

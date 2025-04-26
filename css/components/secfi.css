@@ -1,0 +1,52 @@
+.secfi {
+    padding-top: 83px;
+}
+
+.secfi__text-title {
+    font-size: 10px;
+    text-transform: uppercase;
+    opacity: 50%;
+}
+
+.secfi__wrapper-right {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.secfi__wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.block-title {
+    margin-bottom: 16px;
+    font-size: 20px;
+}
+
+.block-description p {
+    width: 375px;
+    font-size: 13px;
+    line-height: 19px;
+}
+
+.secfi__text-description {
+    margin-bottom: 60%;
+}
+
+.secfi__text-description h3 {
+    font-size: 37px;
+    letter-spacing: 2px;
+    line-height: 44px;
+    width: 376px;
+}
+
+.secfi__text-footer {
+    display: flex;
+    justify-content: space-between;
+    width: 354px;
+}
+
+.secfi__text-footer span {
+    font-size: 10px;
+}

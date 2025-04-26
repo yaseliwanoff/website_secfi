@@ -1,0 +1,39 @@
+.work {
+    background-color: var(--background-yellow);
+    width: 100%;
+    height: 752px;
+    margin-top: 70px;
+}
+
+.work__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.work__text-title {
+    font-size: 12px;
+    opacity: 50%;
+    text-transform: uppercase;
+}
+
+.work__text-description {
+    margin-top: 10px;
+    margin-bottom: 26px;
+}
+
+.work__text-description h3 {
+    font-size: 23px;
+    letter-spacing: 1px;
+    line-height: 28px;
+    width: 361px;
+}
+
+.work__text-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.work__wrapper-right {
+    padding-top: 133px;
+}

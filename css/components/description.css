@@ -29,8 +29,31 @@
     width: 140px;
 }
 
+.startup-image {
+    margin-bottom: 87px;
+}
+
 .startup {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.action {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.action h3 {
+    font-size: 27px;
+    margin-bottom: 24px;
+}
+
+.action button {
+    border: none;
+    border-radius: 999px;
+    background-color: var(--background-yellow);
+    width: 80px;
+    height: 80px;
 }

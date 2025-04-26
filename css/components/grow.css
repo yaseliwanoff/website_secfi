@@ -1,0 +1,39 @@
+.grow {
+    background-color: var(--background-yellow);
+    width: 100%;
+    height: 752px;
+    margin-top: 133px;
+}
+
+.grow_wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.grow__text-title {
+    font-size: 12px;
+    opacity: 50%;
+    text-transform: uppercase;
+}
+
+.grow__text-description {
+    margin-top: 10px;
+    margin-bottom: 26px;
+}
+
+.grow__text-description h3 {
+    font-size: 23px;
+    letter-spacing: 1px;
+    line-height: 28px;
+    width: 361px;
+}
+
+.grow__text-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.grow__wrapper-right {
+    padding-top: 133px;
+}
